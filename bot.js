@@ -39,4 +39,6 @@ client.on("messageCreate", async (message) => {
 
 });
 
+const TOKEN = process.env.BOT_TOKEN;
+
 client.login(TOKEN);
