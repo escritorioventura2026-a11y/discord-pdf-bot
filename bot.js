@@ -12,7 +12,7 @@ const client = new Client({
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const CHANNEL_ID = "1482355911942082692";
 
-const WEBHOOK = "https://n8n-ventura-n8n.ntupvl.easypanel.host/webhook-test/discord-pdf";
+const WEBHOOK = "https://n8n-ventura-n8n.ntupvl.easypanel.host/webhook/discord-pdf";
 
 client.once("ready", () => {
   console.log("BOT ONLINE:", client.user.tag);
